@@ -1,1 +1,0 @@
-# giantuor.github.io
