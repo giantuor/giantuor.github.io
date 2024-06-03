@@ -1,5 +1,5 @@
 html {
-    color: #404040;
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -9,6 +9,20 @@ h1 {
     letter-spacing: 0.05em;
   }
 
-#main-title {
+#title-container {
     padding-top: 100px;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICON */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
 }
