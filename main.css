@@ -1,5 +1,12 @@
-html {
-    color: black;
+:root {
+    --background-color: #111;
+    --text-color: #fff;
+    --highlight-color: #f39c12;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -19,8 +26,6 @@ h1 {
     margin-top: 1rem;
     gap: 1rem;
 }
-
-/* ICON */
 
 .icon {
     cursor: pointer;
